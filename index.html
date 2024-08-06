@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-200">
+  <header>
+    <nav class="h-[10vh] w-[100vw]  flex justify-center items-center bg-black text-white" >
+        <div class="h-[10vh] w-[20%]  flex justify-center items-center">
+            <h1 class="text-2xl">LOGO</h1>
+        </div>
+        <div class="h-[10vh] w-[60%]  flex-justify-center items-center">
+            <ul class="h-[10vh] w-[100%] flex justify-center items-center gap-10">
+                <li class="hover:bg-white hover:text-black p-2 rounded-md hover:cursor-pointer">Home</li>
+                <li class="hover:bg-white hover:text-black p-2 rounded-md hover:cursor-pointer">Services</li>
+                <li class="hover:bg-white hover:text-black p-2 rounded-md hover:cursor-pointer">About</li>
+                <li class="hover:bg-white hover:text-black p-2 rounded-md hover:cursor-pointer">Contact</li>
+            </ul>
+        </div>
+        <div class="h-[10vh] w-[20%]  flex justify-center items-center gap-10">
+            <i class="fa-solid fa-user fa-2x"></i>
+            <i class="fa-solid fa-gear fa-2x"></i>
+        </div>
+    </nav>
+    <main>
+        <div class="h-[50vh] w-[100vw] border flex justify-center items-center flex-col">
+            <h1 class="text-4xl my-6 text-red-400">Google</h1>
+            <div>
+                <input class="p-2 bg-white text-black rounded-md outline-none" placeholder="search..." type="text" name="" id="userSearch">
+                <button class="text-xl m-2" id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+    </main>
+  </header>
+  <section>
+    <div id="img" class="flex justify-center">
+        
+    </div>
+    <div id="result" class="h-[60vh] w-[90vw]  gap-4  p-6 mx-auto rounded-lg  ">
+
+    </div>
+    
+  </section>
+  <script src="./script.js"></script>
+  <script src="https://kit.fontawesome.com/2bc1922da0.js" crossorigin="anonymous"></script>
+</body>
+</html>
